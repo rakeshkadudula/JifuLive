@@ -1,0 +1,7 @@
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\JifuLive.exe
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\appsettings.Development.json
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\appsettings.json
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\JifuLive.dll
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\JifuLive.deps.json
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\JifuLive.runtimeconfig.json
+D:\JifuLive\obj\Debug\net9.0\PubTmp\Out\JifuLive.pdb
