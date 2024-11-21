@@ -4,7 +4,10 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DirectScaleServiceUrl": "https://jifu.corpadmin.directscalestage.com",
+        "DirectScaleToken": "pu1FCLsxWN8jc4r7TUllIwMDe2RqZjwx6hREguT5HaFZ",
+        "ExtensionToken": "etU0EKedsvKrv0Axu8tBelGSpJq9gqYFmTGVgWCdL4sv"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5210"
@@ -22,7 +25,11 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DirectScaleServiceUrl": "https://jifu.corpadmin.directscalestage.com",
+        "DirectScaleToken": "pu1FCLsxWN8jc4r7TUllIwMDe2RqZjwx6hREguT5HaFZ",
+        "ExtensionToken": "etU0EKedsvKrv0Axu8tBelGSpJq9gqYFmTGVgWCdL4sv"
+
       }
     },
     "Container (.NET SDK)": {

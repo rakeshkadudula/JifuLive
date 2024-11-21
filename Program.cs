@@ -1,3 +1,6 @@
+using DirectScale.Disco.Extension.Middleware;
+using JifuLive;
+/**
 var builder = WebApplication.CreateBuilder(args);
 
 // Register HttpClient in DI container
@@ -10,7 +13,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//builder.Services.AddSingleton<>
+
 var app = builder.Build();
+app.UseDirectScale();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -41,6 +47,19 @@ app.MapControllerRoute(
     .WithStaticAssets();
 
 app.Run();
+*/
 
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
 
-
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
+}
